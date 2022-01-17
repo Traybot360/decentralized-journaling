@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 import useLoadWeb3 from "../components/hooks/useLoadWeb3";
-import Index from "../components/post/Index";
+import Index from "../components/Post/Index";
 
 const Post = () => {
   const router = useRouter();

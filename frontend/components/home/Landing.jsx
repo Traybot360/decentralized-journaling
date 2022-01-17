@@ -63,9 +63,7 @@ const Landing = () => (
             </div>
           </div>
           <div>
-            <h6 className="mb-2 font-semibold leading-5">
-              Global feed + Tipping posts
-            </h6>
+            <h6 className="mb-2 font-semibold leading-5">Global feed</h6>
             <p className="text-sm text-gray-900">
               A community of people sharing their insights and thoughts. You can
               chose to keep your journal private or public.

@@ -28,18 +28,7 @@ contract Journal {
         string sentiment,
         address payable author
     );
-
-    event PostTipped(
-        uint256 id,
-        string title,
-        string content,
-        uint256 timestamp,
-        bool isPublished,
-        uint256 sentimentRating,
-        string sentiment,
-        address payable author
-    );
-
+    
     // create & upload a post
     function createPost(
         string memory _title,
